@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="greenfoot.AppTest" time="0.859" tests="0" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="d:\Dateien\Git\greenfoot-source\target\test-classes;d:\Dateien\Git\greenfoot-source\target\classes;C:\Users\leomu\.m2\repository\org\openjfx\javafx-controls\15.0.1\javafx-controls-15.0.1.jar;C:\Users\leomu\.m2\repository\org\openjfx\javafx-controls\15.0.1\javafx-controls-15.0.1-win.jar;C:\Users\leomu\.m2\repository\org\openjfx\javafx-graphics\15.0.1\javafx-graphics-15.0.1.jar;C:\Users\leomu\.m2\repository\org\openjfx\javafx-graphics\15.0.1\javafx-graphics-15.0.1-win.jar;C:\Users\leomu\.m2\repository\org\openjfx\javafx-base\15.0.1\javafx-base-15.0.1.jar;C:\Users\leomu\.m2\repository\org\openjfx\javafx-base\15.0.1\javafx-base-15.0.1-win.jar;C:\Users\leomu\.m2\repository\org\openjfx\javafx-swing\15.0.1\javafx-swing-15.0.1.jar;C:\Users\leomu\.m2\repository\org\openjfx\javafx-swing\15.0.1\javafx-swing-15.0.1-win.jar;C:\Users\leomu\.m2\repository\org\openjfx\javafx-web\15.0.1\javafx-web-15.0.1.jar;C:\Users\leomu\.m2\repository\org\openjfx\javafx-web\15.0.1\javafx-web-15.0.1-win.jar;C:\Users\leomu\.m2\repository\org\openjfx\javafx-media\15.0.1\javafx-media-15.0.1.jar;C:\Users\leomu\.m2\repository\org\openjfx\javafx-media\15.0.1\javafx-media-15.0.1-win.jar;C:\Users\leomu\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\leomu\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\leomu\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\leomu\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\leomu\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\leomu\.m2\repository\au\com\bytecode\opencsv\2.4\opencsv-2.4.jar;C:\Users\leomu\.m2\repository\javazoom\jlayer\1.0.1\jlayer-1.0.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="DE"/>
+    <property name="sun.boot.library.path" value="D:\Programme\Greenfoot\jdk\bin"/>
+    <property name="sun.java.command" value="C:\Users\leomu\AppData\Local\Temp\surefire12886886749153796507\surefirebooter16454371645982308422.jar C:\Users\leomu\AppData\Local\Temp\surefire12886886749153796507 2021-01-18T17-28-22_260-jvmRun1 surefire4242066542204185892tmp surefire_014293519180572736328tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="d:\Dateien\Git\greenfoot-source\target\test-classes;d:\Dateien\Git\greenfoot-source\target\classes;C:\Users\leomu\.m2\repository\org\openjfx\javafx-controls\15.0.1\javafx-controls-15.0.1.jar;C:\Users\leomu\.m2\repository\org\openjfx\javafx-controls\15.0.1\javafx-controls-15.0.1-win.jar;C:\Users\leomu\.m2\repository\org\openjfx\javafx-graphics\15.0.1\javafx-graphics-15.0.1.jar;C:\Users\leomu\.m2\repository\org\openjfx\javafx-graphics\15.0.1\javafx-graphics-15.0.1-win.jar;C:\Users\leomu\.m2\repository\org\openjfx\javafx-base\15.0.1\javafx-base-15.0.1.jar;C:\Users\leomu\.m2\repository\org\openjfx\javafx-base\15.0.1\javafx-base-15.0.1-win.jar;C:\Users\leomu\.m2\repository\org\openjfx\javafx-swing\15.0.1\javafx-swing-15.0.1.jar;C:\Users\leomu\.m2\repository\org\openjfx\javafx-swing\15.0.1\javafx-swing-15.0.1-win.jar;C:\Users\leomu\.m2\repository\org\openjfx\javafx-web\15.0.1\javafx-web-15.0.1.jar;C:\Users\leomu\.m2\repository\org\openjfx\javafx-web\15.0.1\javafx-web-15.0.1-win.jar;C:\Users\leomu\.m2\repository\org\openjfx\javafx-media\15.0.1\javafx-media-15.0.1.jar;C:\Users\leomu\.m2\repository\org\openjfx\javafx-media\15.0.1\javafx-media-15.0.1-win.jar;C:\Users\leomu\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\leomu\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\leomu\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\leomu\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\leomu\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\leomu\.m2\repository\au\com\bytecode\opencsv\2.4\opencsv-2.4.jar;C:\Users\leomu\.m2\repository\javazoom\jlayer\1.0.1\jlayer-1.0.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\leomu"/>
+    <property name="user.language" value="de"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-01-15"/>
+    <property name="java.home" value="D:\Programme\Greenfoot\jdk"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="d:\Dateien\Git\greenfoot-source"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\leomu\AppData\Local\Temp\surefire12886886749153796507\surefirebooter16454371645982308422.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.2+9"/>
+    <property name="user.name" value="leomu"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\leomu\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\leomu\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.2"/>
+    <property name="user.dir" value="d:\Dateien\Git\greenfoot-source"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="D:\Programme\Greenfoot\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS;C:\WINDOWS\system32;D:\Utilities\apache-maven-3.6.3\lib;D:\Utilities\apache-maven-3.6.3\bin;D:\Programme\Greenfoot\jdk\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;D:\Utilities\flutter\bin;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\ProgramData\chocolatey\bin;;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\leomu\AppData\Local\Microsoft\WindowsApps;C:\Users\leomu\.dotnet\tools;C:\Users\leomu\AppData\Local\GitHubDesktop\bin;C:\Users\leomu\AppData\Local\Programs\Microsoft VS Code\bin;D:\Utilities\andriod\tools;D:\Utilities\andriod\platform-tools;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.2+9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+</testsuite>

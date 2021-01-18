@@ -6,7 +6,7 @@
 
   <groupId>com.github.rccookie</groupId>
   <artifactId>greenfoot-source</artifactId>
-  <version>3.6.1</version>
+  <version>3.6.1.1</version>
 
   <name>greenfoot-source</name>
   <!-- FIXME change it to the project's website -->
@@ -67,6 +67,17 @@
         <plugin>
           <artifactId>maven-resources-plugin</artifactId>
           <version>3.0.2</version>
+          <configuration>
+            <resources>
+              <resource>
+                <directory>src/main/java</directory>
+                <includes>
+                  <include>**/*.java</include>
+                  <include>**/*.gwt.xml</include>
+                </includes>
+              </resource>
+            </resources>
+          </configuration>
         </plugin>
         <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
